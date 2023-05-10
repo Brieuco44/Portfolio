@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Profile &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title>Brieuc Courapié</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -150,7 +150,7 @@
 									<span class="company">EDF - Août 2022</span>
 								</div>
 								<div class="timeline-body">
-									<p>L'objectif de ma mission était de permettre la recherche de fichiers par leur mise en place sur un site prestataire ainsi que de normes pour sa maintenabilité.</p>
+									<p>L'objectif de ma mission était de permettre la recherche de fichiers par leur mise en place sur un site prestataire ainsi que de mettre en place des normes pour sa maintenabilité.</p>
 								</div>
 							</div>
 						</li>
@@ -241,8 +241,8 @@
 				<div class="col-md-3 text-center col-padding animate-box">
 					<a href="#" class="work" style="background-image: url(images/projet_boisduroy.png);">
 						<div class="desc">
-							<h3>Boy du Roy</h3>
-							<span>Création d'un systeme de gestion de note de frais en binome</span>
+							<h3>Bois du Roy</h3>
+							<span>Création d'un système de gestion de note de frais en binome</span>
 						</div>
 					</a>
 				</div>
@@ -250,7 +250,7 @@
 					<a href="#" class="work" style="background-image: url(images/Logo-QOS-Energy.jpg);">
 						<div class="desc">
 							<h3>Projet de stage chez QOS Energy</h3>
-							<span>Implémentation d'import d'historique</span>
+							<span>Implémentation d'un déclencheur d'import d'historique</span>
 						</div>
 					</a>
 				</div>
@@ -267,6 +267,14 @@
 						<div class="desc">
 							<h3>Projet de stage chez Fleuron d'Anjou</h3>
 							<span>Implémentation de paramétrage d'étapes de production</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/logo_caramoel.png);">
+						<div class="desc">
+							<h3>Projet Caramoël</h3>
+							<span>Création d'un site d'E-commerce</span>
 						</div>
 					</a>
 				</div>
@@ -293,7 +301,6 @@
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 					<div class="chart" data-percent="100"><span><strong>Javascript</strong>VueJS</span></div>
 				</div>
-
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 					<div class="chart" data-percent="100"><span><strong>PHP</strong>Laravel</span></div>
 				</div>
@@ -301,11 +308,14 @@
 					<div class="chart" data-percent="100"><span><strong>C#</strong></span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="100"><span><strong>SQL</strong></span></div>
+					<div class="chart" data-percent="100"><span><strong>Dart</strong>Flutter</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="100"><span><strong>Données</strong>SQL <br> noSQL</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 					<div class="chart" data-percent="100"><span><strong>Serveur</strong>Debian</span></div>
-				</div>
+				</div>				
 			</div>
 			<!-- <div class="row">
 				<div class="col-md-6">
@@ -435,7 +445,7 @@
 		</div> -->
 		<div class="choose animate-box center-block">
 			<h2>Contact</h2>
-			<form name="netlify" data-netlify="true" onsubmit="return validateForm()" action="#">
+			<form name="netlify" data-netlify="true" action="/index.html">
 
 				<div class="row form-group">
 					<div class="col-md-12">
@@ -493,55 +503,6 @@
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
-<script>function validateForm()                                    
-	{ 
-		var name = document.forms["myForm"]["name"];               
-		var email = document.forms["myForm"]["email"];    
-		var message = document.forms["myForm"]["message"];   
-	   
-		if (name.value == "")                                  
-		{ 
-			document.getElementById('errorname').innerHTML="Veuillez entrez un nom valide";  
-			name.focus(); 
-			return false; 
-		}else{
-			document.getElementById('errorname').innerHTML="";  
-		}
-		   
-		if (email.value == "")                                   
-		{ 
-			document.getElementById('erroremail').innerHTML="Veuillez entrez une adresse mail valide"; 
-			email.focus(); 
-			return false; 
-		}else{
-			document.getElementById('erroremail').innerHTML="";  
-		}
-	   
-		if (email.value.indexOf("@", 0) < 0)                 
-		{ 
-			document.getElementById('erroremail').innerHTML="Veuillez entrez une adresse mail valide"; 
-			email.focus(); 
-			return false; 
-		} 
-	   
-		if (email.value.indexOf(".", 0) < 0)                 
-		{ 
-			document.getElementById('erroremail').innerHTML="Veuillez entrez une adresse mail valide"; 
-			email.focus(); 
-			return false; 
-		} 
-	   
-		if (message.value == "")                           
-		{
-			document.getElementById('errormsg').innerHTML="Veuillez entrez un message valide"; 
-			message.focus(); 
-			return false; 
-		}else{
-			document.getElementById('errormsg').innerHTML="";  
-		}
-	   
-		return true; 
-	}</script>
 	</body>
 </html>
 
